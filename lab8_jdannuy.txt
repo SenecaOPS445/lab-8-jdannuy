@@ -1,0 +1,157 @@
+/home/jdannuy/ops445/
+├── a1
+│   └── assignment-1-jdannuy
+│       ├── assignment1.py
+│       ├── CheckA1.py
+│       ├── __pycache__
+│       │   └── assignment1.cpython-312.pyc
+│       └── README.md
+├── a2
+├── lab1
+│   ├── CheckLab1.py
+│   ├── check_output.log
+│   ├── lab1a.py
+│   ├── lab1b.py
+│   ├── lab1c.py
+│   ├── lab1d.py
+│   ├── lab1output.txt
+│   ├── laboutput.txt
+│   ├── README.md
+│   ├── sample.py
+│   ├── sample.py.1
+│   └── wget-log
+├── lab2
+│   ├── CheckLab1.py
+│   ├── CheckLab2.py
+│   ├── lab2a1.py
+│   ├── lab2a.py
+│   ├── lab2b.py
+│   ├── lab2c.py
+│   ├── lab2d.py
+│   ├── lab2e.py
+│   ├── lab2f.py
+│   ├── lab2g.py
+│   ├── lab2_if_statements.py
+│   ├── lab-2-jdannuy
+│   │   ├── CheckLab1.py
+│   │   ├── CheckLab2.py
+│   │   ├── lab2a1.py
+│   │   ├── lab2a.py
+│   │   ├── lab2b.py
+│   │   ├── lab2c.py
+│   │   ├── lab2d.py
+│   │   ├── lab2e.py
+│   │   ├── lab2f.py
+│   │   ├── lab2g.py
+│   │   ├── lab2_if_statements.py
+│   │   ├── lab2output.txt
+│   │   ├── laboutput.txt
+│   │   ├── README.md
+│   │   ├── showargs.py
+│   │   └── temp_test.py
+│   ├── laboutput.txt
+│   ├── new-directory
+│   │   ├── CheckLab2.py
+│   │   └── README.md
+│   └── temp_test.py
+├── lab3
+│   ├── CheckLab3.py
+│   ├── lab3a.py
+│   ├── lab3b.py
+│   ├── lab3c.py
+│   ├── lab3d.py
+│   ├── lab3e.py
+│   ├── lab3f.py
+│   ├── laboutput.txt
+│   ├── list_manipulation.py
+│   ├── __pycache__
+│   │   ├── lab3a.cpython-312.pyc
+│   │   ├── lab3b.cpython-312.pyc
+│   │   ├── lab3c.cpython-312.pyc
+│   │   ├── lab3d.cpython-312.pyc
+│   │   ├── lab3e.cpython-312.pyc
+│   │   └── lab3f.cpython-312.pyc
+│   ├── README.md
+│   ├── test_lab3a.py
+│   └── test_os_subprocess.py
+├── lab4
+│   ├── \033[200~lab4a.py~
+│   ├── CheckLab4.py
+│   ├── lab4_123456789.txt
+│   ├── lab4a.py
+│   ├── lab4b.py
+│   ├── lab4c.py
+│   ├── lab4d.py
+│   ├── lab4e.py
+│   ├── lab4_jdannuy.txt
+│   ├── laboutput.txt
+│   ├── __pycache__
+│   │   ├── lab4a.cpython-312.pyc
+│   │   ├── lab4b.cpython-312.pyc
+│   │   ├── lab4c.cpython-312.pyc
+│   │   ├── lab4d.cpython-312.pyc
+│   │   └── lab4e.cpython-312.pyc
+│   └── README.md
+├── lab5
+│   ├── CheckLab5.py
+│   ├── data.txt
+│   ├── lab5a.py
+│   ├── lab5b.py
+│   ├── lab5c.py
+│   ├── lab5_jdannuy.txt
+│   ├── laboutput.txt
+│   ├── output.txt
+│   ├── __pycache__
+│   │   ├── lab5a.cpython-312.pyc
+│   │   ├── lab5b.cpython-312.pyc
+│   │   └── lab5c.cpython-312.pyc
+│   ├── README.md
+│   ├── safe_output.txt
+│   ├── seneca1.txt.checkscript
+│   ├── seneca2.txt
+│   ├── seneca2.txt.checkscript
+│   ├── seneca3.txt.checkscript
+│   ├── seneca4.txt.checkscript
+│   └── test.txt
+├── lab6
+│   ├── CheckLab6.py
+│   ├── lab6a.py
+│   ├── lab7a.py
+│   ├── laboutput.txt
+│   ├── __pycache__
+│   │   ├── lab6a.cpython-312.pyc
+│   │   └── student.cpython-312.pyc
+│   ├── README.md
+│   ├── student.py
+│   └── test_student.py
+├── lab7
+│   ├── CheckLab7.py
+│   ├── lab7a1.py
+│   ├── lab7a.py
+│   ├── lab7b.py
+│   ├── lab7c1.py
+│   ├── lab7c.py
+│   ├── lab7d.py
+│   ├── lab7e.py
+│   ├── lab7f.py
+│   ├── lab7g.py
+│   ├── lab7h.py
+│   ├── lab7i.py
+│   ├── __pycache__
+│   │   ├── lab7a.cpython-312.pyc
+│   │   ├── lab7b.cpython-312.pyc
+│   │   ├── lab7c.cpython-312.pyc
+│   │   ├── lab7d.cpython-312.pyc
+│   │   ├── lab7e.cpython-312.pyc
+│   │   ├── lab7f.cpython-312.pyc
+│   │   └── lab7g.cpython-312.pyc
+│   └── README.md
+└── lab8
+    ├── config_ops445.yml
+    ├── fabfile.py
+    ├── hosts
+    ├── lab8_jdannuy.txt
+    ├── ops445.pub
+    └── README.md
+
+20 directories, 135 files

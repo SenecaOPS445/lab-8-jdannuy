@@ -1,0 +1,2 @@
+[vmlab]
+10.0.2.15 ansible_user=jdannuy ansible_ssh_private_key_file=/home/jdannuy/.ssh/id_rsa

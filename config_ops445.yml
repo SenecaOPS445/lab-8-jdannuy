@@ -1,0 +1,52 @@
+---
+- name: Configure Linux Mint for OPS445
+  hosts: 10.0.2.15
+  user: jdannuy
+  become: yes
+  tasks:
+    - name: Install Apache (httpd)
+      apt:
+        name: apache2
+        state: present
+        update_cache: yes
+
+    - name: Install EPEL repository (if not already installed)
+      apt:
+        name: software-properties-common
+        state: present
+
+    - name: Remove 'tree' package
+      apt:
+        name: tree
+        state: absent
+
+    - name: Set the hostname to Seneca ID
+      hostname:
+        name: jdannuy
+
+    - name: Create a new user with sudo access
+      user:
+        name: jdannuy
+        groups: sudo
+        state: present
+
+    - name: Configure SSH access without a password for jdannuy
+      authorized_key:
+        user: jdannuy
+        state: present
+        key: "{{ lookup('file', '/home/jdannuy/.ssh/id_rsa.pub') }}"
+
+    - name: Setup directory structure for OPS445 labs
+      file:
+        path: "/home/jdannuy/ops445/lab{{ item }}"
+        state: directory
+        mode: '0755'
+      loop:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
